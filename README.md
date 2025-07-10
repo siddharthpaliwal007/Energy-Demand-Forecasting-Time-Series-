@@ -121,7 +121,7 @@ It contains hourly energy consumption, temperature, and timestamps.</br>
 
 ## 9. Final Summary
 - Energy Demand Forecasting project gives a company strategic advantage in managing supply, lowering costs, avoiding risk, and meeting customer expectations.</br>
-- It solves the challenges such as : </br>
+- It solves the challenges of the company such as : </br>
   - Buying too much energy means wasted money.</br>
   - Buying too little risks blackouts or penalties.</br>
   - Sudden demand surges (heat waves, holidays) can strain the grid.
