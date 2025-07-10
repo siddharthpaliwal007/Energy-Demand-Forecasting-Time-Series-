@@ -85,6 +85,23 @@ It contains hourly energy consumption, temperature, and timestamps.</br>
 - Pros: Handles categorical + numerical data well.</br>
 - Cons: Not inherently time-series aware.
 
+## 6. Model Evaluation
+### Metrics Used:
+| Metric                             | Description                |
+| ---------------------------------- | -------------------------- |
+| **MAE** (Mean Absolute Error)      | Average magnitude of error |
+| **RMSE** (Root Mean Squared Error) | Penalizes large errors     |
+| **MAPE** (Mean Absolute % Error)   | Relative % error           |
+
+### Validation Strategy:
+- Train/Test split: Last 7 days as holdout. </br>
+- Time-series CV (optional): Expanding window.</br>
+
+### Visualization:
+- Plot actual vs predicted.</br>
+- Residual analysis.</br>
+- Feature importance (for XGBoost). 
+
 
 
 
