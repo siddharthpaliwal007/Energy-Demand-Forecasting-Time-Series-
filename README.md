@@ -100,7 +100,33 @@ It contains hourly energy consumption, temperature, and timestamps.</br>
 ### Visualization:
 - Plot actual vs predicted.</br>
 - Residual analysis.</br>
-- Feature importance (for XGBoost). 
+- Feature importance (for XGBoost).
+
+## 7. Forecasting & Visualization
+### Each model was used to forecast future demand for 1 week (168 hours). Visualizations included:
+- Line plots of predictions.</br>
+- Confidence intervals (Prophet).</br>
+- Forecast vs actual (overlayed plots).</br>
+- Shap plots (XGBoost interpretability).
+
+## 8. Business Impact
+| Area                   | Value                                                        |
+| ---------------------- | ------------------------------------------------------------ |
+| **Load Balancing**     | Forecasts help dispatch generators optimally to meet demand. |
+| **Grid Reliability**   | Early prediction reduces blackouts or brownouts.             |
+| **Energy Procurement** | Predict demand spikes to lock-in lower prices.               |
+| **Cost Savings**       | Reduced reliance on expensive peak-hour energy.              |
+| **Customer Insights**  | Identify high-usage patterns or anomalies.                   |
+
+
+## 9. Final Summary
+- Energy Demand Forecasting project gives a company strategic advantage in managing supply, lowering costs, avoiding risk, and meeting customer expectations.</br>
+- It solves the challenges such as : </br>
+  - Buying too much energy means wasted money.</br>
+  - Buying too little risks blackouts or penalties.</br>
+  - Sudden demand surges (heat waves, holidays) can strain the grid.
+
+
 
 
 
