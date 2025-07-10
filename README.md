@@ -62,28 +62,28 @@ It contains hourly energy consumption, temperature, and timestamps.</br>
 - Supports exogenous inputs like temperature and holiday effects.</br>
 
 - Pros: Interpretable.</br>
-- Cons: Struggles with non-linear or sudden changes.</br>
+- Cons: Struggles with non-linear or sudden changes.
 
 ### B. Prophet (by Facebook)
 - Automated trend + seasonal decomposition</br>
 - Built-in holiday effects and changepoint detection.</br>
 
 - Pros: Handles seasonality well, easy to use.</br>
-- Cons: Less customizable for complex lags.</br>
+- Cons: Less customizable for complex lags.
 
 ### C. LSTM (Long Short-Term Memory - Neural Network)
 - Captures long-term dependencies and complex temporal patterns.</br>
 - Requires sequential input structure.</br>
 
 - Pros: Great for complex, non-linear time series.</br>
-- Cons: Requires more data and compute power.</br>
+- Cons: Requires more data and compute power.
 
 ### D. XGBoost (Tree-Based Regressor)
 - Uses engineered time features and lags.</br>
 - Very fast and powerful ensemble method.</br>
 
 - Pros: Handles categorical + numerical data well.</br>
-- Cons: Not inherently time-series aware.</br>
+- Cons: Not inherently time-series aware.
 
 
 
